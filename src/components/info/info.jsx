@@ -7,5 +7,4 @@ class Info extends Component {
     return <header>{this.props.info}</header>;
   }
 }
-
 export default Info;
