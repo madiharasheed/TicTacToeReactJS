@@ -9,7 +9,7 @@ class Board extends Component {
       <Tile value={this.props.tiles[i]} onClick={() => this.props.onClick(i)} />
     );
   }
-  
+  // Processing of click
   render() {
     return (
       <div className="board">
