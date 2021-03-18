@@ -1,5 +1,5 @@
 import { calculateWinner, calculateTie, genericWinnerCalculator } from "./util";
-
+/*Calculation*/
 it("should be a win", () => {
   const tiles = Array(9).fill(null);
   tiles[0] = "X";
