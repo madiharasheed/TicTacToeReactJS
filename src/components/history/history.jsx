@@ -5,6 +5,7 @@ import "./history.css";
 class History extends Component {
   render() {
     // eslint-disable-next-line no-unused-vars
+    // const descrip = "Reset Game"
     const description = "Restart Game";
     const desc = "Go To Home Page"
     const moveNumber = 0;
