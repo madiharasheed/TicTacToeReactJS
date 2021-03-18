@@ -6,6 +6,7 @@ import Info from "./info";
 describe("Info Component", () => {
   it("should render Info component", () => {
     const infoWrapper = shallow(<Info />);
+//  const infowrapper = shallow(<info />);  
     expect(infoWrapper).toMatchSnapshot();
   });
 });
