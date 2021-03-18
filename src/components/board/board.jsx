@@ -9,6 +9,7 @@ class Board extends Component {
       <Tile value={this.props.tiles[i]} onClick={() => this.props.onClick(i)} />
     );
   }
+  
   render() {
     return (
       <div className="board">
@@ -31,5 +32,4 @@ class Board extends Component {
     );
   }
 }
-
 export default Board;
