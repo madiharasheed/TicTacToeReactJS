@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import "./tile.css";
+/*props and state usage */
 class Tile extends Component {
   render() {
     let colour = this.props.value === 'X' ? '#8F7A76' : this.props.value === 'O' ? '#D9D3D2' : '#FFFF';
