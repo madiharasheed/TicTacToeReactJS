@@ -17,5 +17,4 @@ class StartGame extends Component {
         );
     }
 }
-
 export default StartGame;
