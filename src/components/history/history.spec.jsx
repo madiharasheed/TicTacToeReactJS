@@ -2,7 +2,7 @@ import React from "react";
 import { shallow } from "enzyme";
 
 import History from "./history";
-
+// Describing History Components s
 describe("History component", () => {
   it("should render History component", () => {
     const mockCallBack = jest.fn();
