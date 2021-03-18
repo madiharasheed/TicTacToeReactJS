@@ -2,5 +2,6 @@
  {
     clear: both;
     content: "";
+    /* Display type is Table Layout */
     display: table;
 }
