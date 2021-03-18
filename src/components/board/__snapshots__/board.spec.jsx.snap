@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board component should render Board component 1`] = `
+<div
+  className="board"
+>
+  <div
+    className="board-row"
+  >
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+  </div>
+  <div
+    className="board-row"
+  >
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+  </div>
+  <div
+    className="board-row"
+  >
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+    <Tile
+      onClick={[Function]}
+      value={null}
+    />
+  </div>
+</div>
+`;
