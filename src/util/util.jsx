@@ -17,7 +17,7 @@ export function calculateWinner(tiles) {
   }
   return null;
 }
-
+/*Calculation*/
 export function calculateTie(tiles) {
   if (genericWinnerCalculator(tiles) !== null) {
     return false;
