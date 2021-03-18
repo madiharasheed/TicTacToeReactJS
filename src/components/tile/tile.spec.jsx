@@ -2,7 +2,7 @@ import React from "react";
 import { shallow } from "enzyme";
 
 import Tile from "./tile";
-
+/*Handler Function*/
 describe("Tile", () => {
   it("should render Tile component", () => {
     const tileWrapper = shallow(<Tile />);
