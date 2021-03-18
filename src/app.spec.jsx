@@ -74,6 +74,7 @@ describe("App component", () => {
     ).toEqual(true);
   });
 
+  /* Players Turns */
   it("players should take turns", () => {
     const appWrapper = mount(<App />);
     expect(appWrapper.state("xTurn")).toEqual(true);
