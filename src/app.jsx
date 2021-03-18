@@ -19,7 +19,7 @@ class App extends Component {
       isStartGame: false
     };
   }
-
+  /* EventHandler */
   handleClick(i) {
     const historyCopy = this.state.history.slice(0, this.state.moveNumber + 1);
     const currentTilesCopy = historyCopy[historyCopy.length - 1].tiles.slice();
