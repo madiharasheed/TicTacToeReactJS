@@ -13,6 +13,7 @@ class History extends Component {
         <button onClick={() => this.props.onClick(moveNumber)}>
           {description}
         </button>&nbsp;
+        
         <button onClick={() => this.props.onGotoHomeClick()}>
           {desc}
         </button>
