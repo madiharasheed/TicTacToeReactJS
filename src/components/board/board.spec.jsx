@@ -2,7 +2,7 @@ import React from "react";
 import { shallow } from "enzyme";
 
 import Board from "./board";
-
+// Describing Board Components
 describe("Board component", () => {
   it("should render Board component", () => {
     const mockCallBack = jest.fn();
