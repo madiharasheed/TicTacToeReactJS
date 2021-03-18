@@ -1,0 +1,8 @@
+header {
+    height: 50px;
+    background-color: rgb(150, 250, 172);
+    color: rgb(69, 117, 248);
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+}

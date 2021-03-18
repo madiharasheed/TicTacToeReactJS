@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render game App component 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game-info"
+  >
+    <Info
+      info="Next player is X"
+    />
+  </div>
+  <div
+    className="d-flex justify-content-center game-board"
+  >
+    <Board
+      onClick={[Function]}
+      tiles={
+        Array [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+        ]
+      }
+    />
+  </div>
+  <div
+    className="d-flex justify-content-center game-history"
+  >
+    <History
+      history={
+        Array [
+          Object {
+            "tiles": Array [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+            ],
+          },
+        ]
+      }
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
