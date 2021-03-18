@@ -1,0 +1,33 @@
+.tile {
+    background: rgb(240, 224, 137);
+    border: 1px solid rgb(115, 157, 247);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+
+
+.tile:focus {
+    outline: none;
+}
+
+.kbd-navigation .tile:focus {
+    background: #ddd;
+}
+
+button.x {
+    background-color: #bfe41e;
+    color: rgb(209, 31, 70);
+}
+/*background color for 0*/
+button.o {
+    background-color: #1411be;
+    color: rgb(209, 212, 32);
+}
